@@ -1,8 +1,9 @@
 # MCP 설정 파일
 .mcp.json
 
-# Claude 로컬 설정
-.claude/
+# Claude 로컬 설정 (스킬은 공유, 개인 설정은 제외)
+**/.claude/*
+!**/.claude/skills/
 
 # Node.js 관련
 node_modules/
