@@ -1,0 +1,11 @@
+/* 전역 커스텀 스타일 */
+/* MUI 의 sx 속성으로 처리하기 어려운 전역 스타일만 이곳에 작성한다. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 섹션 이동 시 상단이 잘리지 않도록 여백 확보 */
+section[id] {
+  scroll-margin-top: 24px;
+}
