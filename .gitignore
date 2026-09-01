@@ -28,3 +28,9 @@ Thumbs.db
 # 로그 파일
 *.log
 npm-debug.log*
+
+# 개별 GitHub 저장소로 관리하는 실습 프로젝트
+# (각각 자체 .git 과 원격 저장소를 가지므로 부모 저장소에서는 추적하지 않음)
+lecture1/mini_sns/
+lecture1/my-community/
+lecture1/my-portfolio/
